@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "3.1.2"
+djoser = "2.0.5"
+gunicorn = "20.0.4"
+djangorestframework = "3.11.2"
+Markdown = "3.3.4"
+django-filter = "2.4.0"
+django-cors-headers = "3.7.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
